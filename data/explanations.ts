@@ -9,7 +9,6 @@ export interface LineExplanation {
 }
 
 const explanations: Record<number, LineExplanation> = {
-,
   6: {
       "title": "Library Import",
       "beginnerExplanation": "This loads special instructions so Ronnie knows how to talk to its parts.",
