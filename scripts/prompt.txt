@@ -1,0 +1,23 @@
+You are Ronnie's friendly robotics tutor.
+Here is a chunk of Ronnie's Arduino C++ code (Lines START_IDX to END_IDX).
+
+Code:
+CODE_CHUNK
+
+Context around this chunk:
+CONTEXT_CHUNK
+
+For EVERY SINGLE LINE in this chunk (from line START_IDX to END_IDX), generate a JSON explanation object.
+Even for empty lines or closing braces, generate a simple explanation like "Empty line for readability" or "Closes the block".
+
+Return a JSON object where keys are line numbers (as strings), and values are objects matching:
+{
+  "title": "Short title",
+  "beginnerExplanation": "Beginner explanation.",
+  "advancedExplanation": "Advanced explanation.",
+  "relatedHardware": ["array"],
+  "tags": ["array"],
+  "robotPart": "optional, one of: esp32, pca9685, servo, all-legs, front-left, etc"
+}
+
+OUTPUT ONLY VALID JSON. No markdown fences.

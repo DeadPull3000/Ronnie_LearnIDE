@@ -71,7 +71,7 @@ keen-pasteur/
 │       └── RobotDiagram.tsx # SVG quadruped diagram with highlight sync
 ├── data/
 │   ├── ronnieCode.ts        # The actual quadruped robot Arduino/C++ source code
-│   └── explanations.ts      # Core mapping of 20+ line-by-line static explanations
+│   └── explanations.ts      # Full mapping of 285+ line-by-line static pedagogical explanations
 ├── hooks/
 │   ├── useExplanation.ts    # Hybrid hook orchestrating static vs AI explanations
 │   └── useRobotHighlight.ts # Hook linking code lines to robot parts (legs, chips, etc.)
