@@ -1,3 +1,10 @@
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./project-scan.gif">
+  <img src="./project-static.png" width="1056" alt="Ronnie LearnIDE ASCII project diagram">
+</picture>
+
+Select a firmware line to see how it connects to the robot. The motion preview animates example servo angles.
+
 # Ronnie Learn IDE 🤖💻
 
 **Ronnie Learn IDE** is a premium, interactive, web-based educational IDE designed to introduce beginners to embedded systems, robotics, and AI. By interfacing with the code of **Ronnie**, an ESP32-powered quadruped robot, students learn the fundamentals of physical computing in a visual, hands-on environment.
